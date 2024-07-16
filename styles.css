@@ -39,7 +39,8 @@ p {
 
 /*---------------------- Classes ----------------------*/
 .job {
-    padding: 5%;
+    border: 1px solid rgba(0, 0, 0, 0);
+    padding: 3%;
     border-radius: 5%;
     transition: 0.3s;
 }
