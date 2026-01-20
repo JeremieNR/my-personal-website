@@ -3,84 +3,140 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jeremie Notebaert - Data Engineer</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="icon" href="favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-
-    <div style="margin: 0 15vw 0 10vw; width: 25vw; float: left; position: fixed;">
-        <div style="margin: 10vh 0 5vh 0;">
-            <img src="me.jpeg" alt="Jeremie Notebaert" style="max-width: 15vw; border-radius: 5%;">
-            <h1 style="font-size: 200%;">Jeremie Notebaert</h1>
-            <h2 styte="font-weight: 300;">Full Stack Web Developer</h2>
-            <p>I make Innovative, Reliable and Scalable Web Apps. </p>
-        </div>
-        <div style="bottom: 6vh; position: fixed; height: 5vh;">
-            <div style="display: inline-block;">
-                <a href="https://www.linkedin.com/in/jeremie-notebaert/" target=”_blank”><img src="linkedin.png" style="width: 3vh; height: 3vh; margin-right: 1vh;"></a>
+    <section id="hero">
+        <div class="hero-container">
+            <div class="hero-image">
+                <img src="me.jpg" alt="Jeremie Notebaert">
             </div>
-            <div style="display: inline-block;">
-                <a href="https://github.com/JeremieNR/" target=”_blank”><img src="github.png" style="width: 3vh; height: 3vh;"></a>
-            </div>
-        </div>
-        <div style="bottom: 0; position: fixed; height: 6vh;">
-            <a href="resume.pdf" target=”_blank” style="font-size: 100%;"><b>View My Full Resume</b></a>
-        </div>
-    </div>
-    <div style="margin: 0 10vw 0 0; width: 40vw; float: right;">
-        <div style="margin: 10vh 0 10vh 0">
-            <p>
-                <span>It all started when I was 12 and started building video games in <b>GML</b>. Currently, I'm an <b>Applied Mathematics</b> major at the 
-                <b>University of Waterloo</b>, with a <b>strong focus on Computer Science</b>. I'm a fast learner and a hard worker, always striving for excellence. 
-                I bring a can-do attitude to challenges, tackling them with attentiveness to detail and a strong problem-solving mindset.</span>
-                <br><br>
-                <span>My diverse skillset combines proficiency in functional and imperative programming languages with strong algorithm and data structure
-                        skills. I excel in software development and automation, building robust and documented solutions. My strong foundation in mathematics
-                        and computational theory (including linear algebra) enhances my ability to collaborate effectively and leverage Linux tools and 
-                        containerization technologies (Docker, Portainer) to deliver efficient and scalable solutions.</span>
-                <br><br>
-                <span>When I'm not working, I’m usually learning new languages, spending time with my friends, or doing some <b class="drifting">drifting</b>.</span>
-            </p>
-        </div>
-        <div style="margin: 2vh 0 2vh 0; height: auto;" class="job">
-            <div style="display: inline-block; width: auto;">
-                <p style="font-weight: 300; font-size: 90%;">MAY 2024 - SEP 2024</p>
-            </div>
-            <div style="display: inline-block; width: auto;">
-                <h3 style="margin: 0;">Jr. IT Enterprise Architect · Samuel, Son & Co.</h3>
-                <p style="font-size: 80%;">Implemented a comprehensive monitoring system for warehouse machinery using Portainer, Docker, InfluxDB, 
-                    Telegraf, and Grafana, creating customizable dashboards and alerts to enhance preventive maintenance and operational efficiency. 
-                    Leveraged GPT-4's vision capabilities to automate the verification of steel materials against purchase orders, resulting in annual 
-                    savings of approximately $500,000 CAD by reducing discrepancies and waste. Integrated the company's Shopify storefront with backend 
-                    systems through Webhooks and Azure Functions, streamlining order processing and ensuring timely data flow. Developed a DLL wrapper API
-                     in C# and .NET to interface with a legacy DLL file, improving internal production order management and user experience.
+            <div class="hero-content">
+                <h1>Jeremie Notebaert</h1>
+                <h2>Aspiring Data Engineer</h2>
+				<p class="bio">
+					I began programming at 12, building video games in GML, which sparked a long-standing passion for software and problem solving. I graduated from the <strong>University of Waterloo</strong> with a <strong>BMath in Mathematics</strong> and a <strong>strong concentration in Computer Science</strong>, and I'm currently pursuing a part-time <strong>MS in Computer Science</strong>. I'm a fast learner with a strong work ethic, known for approaching challenges with precision, curiosity, and a solutions-first mindset.
                 </p>
+                <p class="bio">
+					I'm a <strong>data analyst and engineer</strong> with <strong>over three years of experience</strong> designing and delivering data-driven solutions in enterprise environments. I specialize in building <strong>end-to-end data workflows</strong>, transforming complex operational data into actionable insights, and optimizing processes using <strong>Python, SQL, and modern analytics tooling</strong>. My work often involves <strong>full-stack ownership</strong>, from <strong>data ingestion and automation to visualization and stakeholder-facing reporting</strong>.
+                </p>
+                <p class="bio">
+					I've delivered projects with measurable business impact, including automating steel material verification using <strong>computer vision</strong>, saving approximately <strong>$500,000 CAD annually</strong>, and deploying <strong>real-time monitoring systems</strong> for warehouse machinery using <strong>InfluxDB and Grafana</strong>. I take pride in communicating technical systems clearly and translating complex workflows into insights that support decision-making for non-technical stakeholders.
+                </p>
+                <p class="bio">
+					Backed by a strong foundation in <strong>mathematics and computational theory, including linear algebra</strong>, I work comfortably across <strong>functional and imperative programming paradigms</strong> and leverage <strong>Linux tooling and containerization technologies</strong> such as <strong>Docker and Portainer</strong> to build reliable, <strong>scalable systems</strong>. I'm motivated by opportunities that combine analytics and engineering to drive meaningful, measurable outcomes.
+                </p>
+                <p class="bio-footer">
+                    Outside of work, I enjoy learning new programming languages, exploring academic fields such as biology, psychology, and philosophy, and continuing my <strong>graduate studies in computer science</strong>.
+                </p>
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/jeremie-notebaert/" target="_blank" class="social-link">
+                        <img src="linkedin.png" alt="LinkedIn">
+                    </a>
+                    <a href="https://github.com/JeremieNR/" target="_blank" class="social-link">
+                        <img src="github.png" alt="GitHub">
+                    </a>
+                    <a href="resume.pdf" target="_blank" class="resume-link">View Resume</a>
+                </div>
             </div>
         </div>
-        <div style="margin: 2vh 0 2vh 0; height: auto;" class="job">
-            <div style="display: inline-block; width: auto;">
-                <p style="font-weight: 300; font-size: 90%;">MAY 2023 - JUL 2023</p>
-            </div>
-            <div style="display: inline-block; width: auto;">
-                <h3 style="margin: 0;">Windshield Repair Technician · DECO</h3>
-                <p style="font-size: 80%;">Increased sales and customer satisfaction in the auto glass department by leveraging product 
-                    knowledge, cross-selling techniques, and exceptional customer service. Maintained accurate inventory records, expertly handled repairs using specialized 
-                    equipment, and built rapport with both existing and potential customers.</p>
+    </section>
+
+    <section id="experience">
+        <div class="section-container">
+            <h2 class="section-title">Experience</h2>
+            <div class="experience-list">
+                <div class="job-card">
+                    <div class="job-header">
+                        <div class="job-title-group">
+                            <h3>Bilingual Customer Facing IT Specialist</h3>
+                            <p class="company">DHL Express (Canada)</p>
+                        </div>
+                        <p class="job-date">Oct 2025 - Jan 2026</p>
+                    </div>
+                    <p class="job-description">
+						Managed business IT support for enterprise (Fortune 500) customers on DHL platforms, resolving inbound ServiceNow tickets by diagnosing system issues, reproducing errors, and collaborating with engineering teams on escalations. Provided clear bilingual (English/French) customer communication and developed lightweight scripts to streamline recurring resolutions. Supported API integrations by validating customer JSON payloads and API keys against internal schemas, testing endpoints with Postman, troubleshooting integration issues, and documenting common patterns and schema mismatches to improve integration reliability and knowledge sharing.
+                    </p>
+                </div>
+
+                <div class="job-card">
+                    <div class="job-header">
+                        <div class="job-title-group">
+                            <h3>IT Enterprise Architect / Software Engineer</h3>
+                            <p class="company">Samuel, Son & Co.</p>
+                        </div>
+                        <p class="job-date">May 2024 - Sep 2024</p>
+                    </div>
+                    <p class="job-description">
+                        Implemented a comprehensive monitoring system for warehouse machinery using Portainer, Docker, InfluxDB, Telegraf, and Grafana, creating customizable dashboards and alerts to enhance preventive maintenance and operational efficiency. Leveraged GPT-4's vision capabilities to automate the verification of steel materials against purchase orders, resulting in annual savings of approximately $500,000 CAD by reducing discrepancies and waste. Integrated the company's Shopify storefront with backend systems through Webhooks and Azure Functions, streamlining order processing and ensuring timely data flow. Developed a DLL wrapper API in C# and .NET to interface with a legacy DLL file, improving internal production order management and user experience.
+                    </p>
+                </div>
+
+                <div class="job-card">
+                    <div class="job-header">
+                        <div class="job-title-group">
+                            <h3>Windshield Repair Technician</h3>
+                            <p class="company">DECO</p>
+                        </div>
+                        <p class="job-date">May 2023 - Jul 2023</p>
+                    </div>
+                    <p class="job-description">
+                        Increased sales and customer satisfaction in the auto glass department by leveraging product knowledge, cross-selling techniques, and exceptional customer service. Maintained accurate inventory records, expertly handled repairs using specialized equipment, and built rapport with both existing and potential customers.
+                    </p>
+                </div>
+
+                <div class="job-card">
+                    <div class="job-header">
+                        <div class="job-title-group">
+                            <h3>Team Lead</h3>
+                            <p class="company">Costco Wholesale</p>
+                        </div>
+                        <p class="job-date">Nov 2021 - May 2023</p>
+                    </div>
+                    <p class="job-description">
+                        Led 5-person team in Meat Department, managing inventory, training new hires, and upholding Costco's quality standards through product checks and customer service. Ensured efficient operations, minimized waste, and followed food safety regulations.
+                    </p>
+                </div>
             </div>
         </div>
-        <div style="margin: 2vh 0 2vh 0; height: auto;" class="job">
-            <div style="display: inline-block; width: auto;">
-                <p style="font-weight: 300; font-size: 90%;">NOV 2021 - MAY 2023</p>
-            </div>
-            <div style="display: inline-block; width: auto;">
-                <h3 style="margin: 0;">Team Lead · Costco Wholesale</h3>
-                <p style="font-size: 80%;">Led 5-person team in Meat Department, managing inventory, training new hires, and upholding 
-                    Costco's quality standards through product checks and customer service. Ensured efficient operations, minimized waste, and followed food safety regulations.</p>
+    </section>
+
+    <section id="projects">
+        <div class="section-container">
+            <h2 class="section-title">Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image-placeholder" style="background-image: url('purchase_order.jpg');">
+                        <span>Coming Soon!</span>
+                    </div>
+                    <h4>E-Commerce Customer Segmentation & Revenue Analysis</h4>
+                    <p>Analysis of e-commerce transaction data to segment customers by purchasing behavior, identify high-value groups, and uncover revenue, regional, and seasonal trends. An interactive Power BI dashboard highlights customer lifetime value, churn indicators, and data-driven marketing insights.</p>
+                </div>
+                <div class="project-card">
+                    <div class="project-image-placeholder" style="background-image: url('candlestick.jpeg');">
+                        <span>Coming Soon!</span>
+                    </div>
+                    <h4>Financial Market Performance & Portfolio Analysis Dashboard</h4>
+                    <p>Comparative analysis of historical stock market data for major Canadian companies across key sectors, evaluating returns, volatility, and sector trends. A Power BI dashboard presents portfolio performance metrics, risk indicators, year-over-year comparisons, and sector correlation insights.</p>
+                </div>
+                <div class="project-card">
+                    <div class="project-image-placeholder" style="background-image: url('city_skyline.jpg');">
+                        <span>Coming Soon!</span>
+                    </div>
+                    <h4>Canadian Job Market & Salary Trends Analysis</h4>
+                    <p>Analysis of public job posting and salary data across Canadian cities and industries to uncover salary trends, skill demand, and experience-level patterns. Power BI dashboards visualize hiring trends, regional salary benchmarks, and skill gaps to support job seekers and HR decision-making.</p>
+                </div>
             </div>
         </div>
-        <div style="margin: 10vh 0 5vh 0">
-            <p>Will add projects here later.</p>
-        </div>
-    </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Jeremie Notebaert. All rights reserved.</p>
+    </footer>
 </body>
 </html>
