@@ -313,6 +313,11 @@ strong {
     padding: 0 24px 24px 24px;
 }
 
+a.project-card {
+   text-decoration: none;
+   display: block;
+}
+
 footer {
     padding: 40px 0;
     text-align: center;
