@@ -330,6 +330,33 @@ footer p {
     color: var(--text-secondary);
 }
 
+.github-link-container {
+    margin-top: 48px;
+    text-align: center;
+    padding: 32px;
+    background: var(--bg-secondary);
+    border: 1px solid var(--border-color);
+    border-radius: 12px;
+}
+
+.github-link-container p {
+    font-size: 1.1rem;
+    color: var(--text-secondary);
+}
+
+.github-repo-link {
+    color: var(--accent-primary);
+    font-weight: 600;
+    font-size: 1.1rem;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.github-repo-link:hover {
+    color: var(--accent-secondary);
+    text-decoration: underline;
+}
+
 @media (max-width: 968px) {
     .hero-container {
         flex-direction: column;
